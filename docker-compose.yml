@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+    image: priconne-cord
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home/node/app
+    tty: true
