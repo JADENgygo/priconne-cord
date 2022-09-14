@@ -69,14 +69,14 @@ function MyApp({ Component, pageProps }: AppProps) {
           <footer>
             <div className="bg-secondary bg-opacity-25 text-center pt-3 pb-3">
               <div>
-                <a href="https://twitter.com/@JADENgygo" className="me-3 link link-dark">
+                <a href="https://twitter.com/@JADENgygo" className="me-3 link-dark">
                   <i className="bi bi-twitter"></i>
                 </a>
-                <a href="https://priconne-portfolio.vercel.app" className="link link-dark">
-                  プリコネツール
+                <a href="https://priconne-portfolio.vercel.app" className="link-dark">
+                  闇プリン開発室
                 </a>
               </div>
-              <div>画像: &copy; Cygames, Inc.</div>
+              <div>画像 &copy; Cygames, Inc.</div>
             </div>
           </footer>
         </div>
